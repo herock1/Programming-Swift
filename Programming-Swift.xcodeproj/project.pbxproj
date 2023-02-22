@@ -44,6 +44,7 @@
 		F0C318CF268088C500FA096D /* Move_zero.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C318CE268088C500FA096D /* Move_zero.swift */; };
 		F0C319132680E26C00FA096D /* HeightChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C319122680E26C00FA096D /* HeightChecker.swift */; };
 		F0C83D0C26E6AA9500A4A45C /* DublicateZeroNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C83D0B26E6AA9500A4A45C /* DublicateZeroNew.swift */; };
+		F0EDDD16299A0B51005574D7 /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EDDD15299A0B51005574D7 /* Recursion.swift */; };
 		F0F530122715F3910022BFE4 /* HelloFreshTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F530112715F3910022BFE4 /* HelloFreshTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +99,7 @@
 		F0C318CE268088C500FA096D /* Move_zero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move_zero.swift; sourceTree = "<group>"; };
 		F0C319122680E26C00FA096D /* HeightChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightChecker.swift; sourceTree = "<group>"; };
 		F0C83D0B26E6AA9500A4A45C /* DublicateZeroNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DublicateZeroNew.swift; sourceTree = "<group>"; };
+		F0EDDD15299A0B51005574D7 /* Recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion.swift; sourceTree = "<group>"; };
 		F0F530112715F3910022BFE4 /* HelloFreshTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFreshTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -248,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				F0AA81DD268667DF00622EEE /* RotateArray.swift */,
+				F0EDDD15299A0B51005574D7 /* Recursion.swift */,
 			);
 			path = Recurrsion;
 			sourceTree = "<group>";
@@ -288,7 +291,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					F0999E07267C675B009E282C = {
 						CreatedOnToolsVersion = 12.4;
@@ -342,6 +345,7 @@
 				F07FA94A26E3F45C004C4069 /* LetterCombination.swift in Sources */,
 				F017B7E12681D4C0000A7C70 /* MiniMaxSum.swift in Sources */,
 				5567848126DA39F200DE357A /* zolando.swift in Sources */,
+				F0EDDD16299A0B51005574D7 /* Recursion.swift in Sources */,
 				F047F8CD2689B1A100F465D9 /* Test1.swift in Sources */,
 				F07F6F6D268777A300498453 /* MatrixSum.swift in Sources */,
 				F0999E17267D2952009E282C /* DublicateZero.swift in Sources */,
@@ -396,6 +400,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -457,6 +462,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -480,7 +486,9 @@
 		F0999E10267C675B009E282C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -489,7 +497,9 @@
 		F0999E11267C675B009E282C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

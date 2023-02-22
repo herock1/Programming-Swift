@@ -8,6 +8,22 @@
 import Foundation
 
 
+
+
+// MARK: Recursion problem
+//print(fibRecursion(input: 6))
+print(dpfibRecursion(input: 6))
+print("--------------------")
+print(fibonacciRecursive(n: 6))
+
+// TODO: Next Task Have to do
+// FIXME: 🔥🔥🔥🔥
+
+
+
+
+
+
 //print(alternatingCharacters(s: "AA"))
 
 
@@ -85,4 +101,4 @@ import Foundation
 //leetduplicateZeros(&dublicateZeroInput)
 //print(dublicateZeroInput)
 
-print(playlist(songs: [4,10,50,90,30]))
+//print(playlist(songs: [4,10,50,90,30]))
