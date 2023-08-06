@@ -30,4 +30,24 @@ func isLeapYear(datum: Date) -> Bool {
 }
 
 
+func isPrime(_ num: Int) -> Bool {
+    
+    let topNum =   Int(sqrt(Double(num)))
+    print(topNum)
+    for i in 2...topNum {
+        print(i)
+        if num%i == 0 {
+            return false
+        }
+    }
+    return true
+}
 
+func defineSwift () {
+    let num = 3
+    var variableNum : Int?
+    var map: [String : String] = [:]
+    var array : [Int]? // Optional Array
+    var array2 : [Int] = Array(repeating: 0, count: 5) // Length 5 array with 0
+    
+}

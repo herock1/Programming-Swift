@@ -8,13 +8,14 @@
 import Foundation
 
 
+print(isPrime(5))
 
 
 // MARK: Recursion problem
 //print(fibRecursion(input: 6))
-print(dpfibRecursion(input: 6))
-print("--------------------")
-print(fibonacciRecursive(n: 6))
+//print(dpfibRecursion(input: 6))
+//print("--------------------")
+//print(fibonacciRecursive(n: 6))
 
 // TODO: Next Task Have to do
 // FIXME: 🔥🔥🔥🔥
